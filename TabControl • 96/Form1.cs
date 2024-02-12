@@ -36,7 +36,7 @@ namespace TabControl___96
                 }
 
                 txtBilgi.Text += "_______________";
-                txtBilgi.Text += string.Format("\r\n" + "Çorba parası {0:C}", corba);
+                txtBilgi.Text += string.Format("\r\n" + "Çorba {0:C}", corba);
 
                 if (nSalata.Value > 0)
                 {
@@ -45,7 +45,7 @@ namespace TabControl___96
                 }
 
                 txtBilgi.Text += "_______________";
-                txtBilgi.Text += string.Format("\r\n" + "Salata parası {0:C}", salata);
+                txtBilgi.Text += string.Format("\r\n" + "Salata {0:C}", salata);
 
 
                 if (nYemek.Value > 0)
@@ -55,7 +55,7 @@ namespace TabControl___96
                 }
 
                 txtBilgi.Text += "_______________";
-                txtBilgi.Text += string.Format("\r\n" + "Ana Yemek parası {0:C}", yemek);
+                txtBilgi.Text += string.Format("\r\n" + "Ana Yemek {0:C}", yemek);
 
 
                 if (nTatli.Value > 0)
@@ -65,11 +65,11 @@ namespace TabControl___96
                 }
 
                 txtBilgi.Text += "_______________";
-                txtBilgi.Text += string.Format("\r\n" + "Tatlı parası {0:C}", tatli);
+                txtBilgi.Text += string.Format("\r\n" + "Tatlı {0:C}", tatli);
 
                 toplam = corba + salata + yemek + tatli;
                 txtBilgi.Text += "_______________";
-                txtBilgi.Text += string.Format("\r\n" + "Toplam {0:C}", toplam);
+                txtBilgi.Text += string.Format("\r\n" + "TOPLAM ÖDENECEK TUTAR {0:C}", toplam);
             }
 
         }
